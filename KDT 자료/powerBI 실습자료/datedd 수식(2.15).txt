@@ -1,0 +1,4 @@
+Dax함수
+DateDD(<dates>,<number_of_intervals>,<interval>)
+=datedd('dimdate'[date],-1,month)
+=datedd('dimdate'[date],-1,year)
