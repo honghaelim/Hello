@@ -1,0 +1,36 @@
+* 전통적인 통계 방법
+
+1. 포아송 회귀 모형
+2. 음이항 회귀 모형
+
+* 다른 방법
+
+1. 랜덤 포레스트 변수
+2. 선형 회귀
+3. 선형 로그 회귀
+4. 훈련 / 테스트 split
+  -> sklearn_model_selection import Kfold
+	   sklearn_model_selection import cross_val_score
+	   sklearn.metrics import mean_squared_error
+	   sklearn.metrics import r2_score
+	   from sklearn.ensemble import RandomForestRegressor
+	   from sklearn.linear_model import LinearRegression
+import matplotlib.pyplot as plt
+import numpy as np
+
+* 기상 상태 R arima 함수로 분석
+* R 7내년 기상지수 평균치로 2022 
+
+* sum 모델 / mean 모델 중 mean 모델을 선택하였음
+
+CNN 기반의 딥러닝 모델
+TATI 모델
+MLP 네트워크
+RNN
+SVM
+NN
+ K-최근접 이웃(K-Nearest Neighbor)
+ 
+ ------------------------------------------------------------
+ 
+노출 계수(AADT, 콘존 길이)

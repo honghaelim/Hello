@@ -1,0 +1,13 @@
+이진 분류 문제 (Binary Classification):
+
+교통사고가 발생했는지 여부를 예측하는 문제입니다. 이 경우에는 Logistic Regression, Decision Trees, Random Forests, Support Vector Machines (SVM), 또는 Gradient Boosting Machines (GBM) 등이 사용될 수 있습니다. 특히 Random Forests나 GBM은 복잡한 데이터 패턴을 잘 학습하고 예측 성능이 우수한 편입니다.
+다중 클래스 분류 문제 (Multi-class Classification):
+
+교통사고의 심각성을 예측하는 문제로, 사고의 유형이나 심각도에 따라 여러 클래스로 나누어 분류합니다. 이 경우에는 Random Forests, Gradient Boosting Machines, 또는 신경망(Neural Networks) 등이 사용될 수 있습니다.
+회귀 문제 (Regression):
+
+사고 발생 건수나 사고로 인한 피해액 등을 예측하는 문제입니다. 선형 회귀(Linear Regression), 다항 회귀(Polynomial Regression), 또는 다양한 회귀 기반 머신러닝 모델들이 사용될 수 있습니다.
+시계열 분석 (Time Series Analysis):
+
+교통사고 발생 패턴이 시간에 따라 변하는 경우, 시계열 모델링을 통해 예측할 수 있습니다. 자기회귀 모델(ARIMA), Prophet, LSTM(Long Short-Term Memory) 등이 사용될 수 있습니다.
+각 모델의 선택은 데이터의 특성, 사용할 수 있는 데이터 양, 예측 정확도 요구 등에 따라 달라질 수 있습니다. 보통은 여러 모델을 비교하고 평가하여 가장 적합한 모델을 선택하는 것이 좋습니다. 데이터의 전처리, 특성 선택, 모델 파라미터 튜닝 등도 중요한 부분이니 종합적으로 고려하셔야 합니다.

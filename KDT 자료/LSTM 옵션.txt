@@ -1,0 +1,37 @@
+TensorFlow 및 Keras에서 사용할 수 있는 일반적인 최적화 알고리즘들은 다음과 같습니다:
+
+1. 확률적 경사 하강법 (Stochastic Gradient Descent, SGD):
+
+2. tf.keras.optimizers.SGD: 가장 기본적인 최적화 알고리즘으로, 각 배치마다의 그래디언트를 계산하여 모델을 업데이트합니다.
+   모멘텀 최적화 (Momentum Optimization):
+
+3. tf.keras.optimizers.SGD(momentum=0.9): SGD에 모멘텀을 추가하여, 이전 그래디언트가 현재 그래디언트에 얼마나 기여할지를 결정합니다.
+   네스테로프 가속 경사 (Nesterov Accelerated Gradient, NAG):
+
+4. tf.keras.optimizers.SGD(momentum=0.9, nesterov=True): 모멘텀 최적화의 변형으로, 모멘텀 방향으로 미리 이동하여 더 빠르게 수렴할 수 있도록 도와줍니다.
+   AdaGrad:
+
+5. tf.keras.optimizers.Adagrad: 각 매개변수에 대해 학습률을 조정하면서 많이 업데이트된 매개변수에 대해서는 학습률을 감소시키는 방식으로 동작합니다.
+   RMSprop:
+
+6. tf.keras.optimizers.RMSprop: AdaGrad의 단점을 개선한 방식으로, 최신 그래디언트만 사용하여 학습률을 조정합니다.
+   Adam (Adaptive Moment Estimation):
+
+7. tf.keras.optimizers.Adam: RMSprop과 모멘텀 최적화를 합친 알고리즘으로, 학습률을 자동으로 조절하며 효율적인 최적화를 가능하게 합니다.
+   AdaDelta:
+
+8. tf.keras.optimizers.Adadelta: RMSprop과 유사하지만, 학습률을 동적으로 조정하고 AdaGrad의 누적 제곱 그래디언트를 사용하지 않습니다.
+   Adamax:
+
+9. tf.keras.optimizers.Adamax: Adam의 변형으로, 무한 노름(infinity norm)을 사용하여 학습률을 조절합니다.
+   Nadam:
+
+10. tf.keras.optimizers.Nadam: Adam과 네스테로프 가속 경사(NAG)을 결합한 최적화 알고리즘으로, Adam의 장점을 갖추면서 수렴 속도를 높입니다.
+    이러한 최적화 알고리즘들은 각각의 특성에 맞게 선택하여 사용할 수 있으며, 모델의 성능과 수렴 속도에 영향을 미칠 수 있습니다. 선택할 최적화 알고리즘은 주어진 문제와 데이터의 특성에 따라 달라질 수 있습니다.
+
+
+도로명: ?
+지점명: 구, 동 수준
+시간대: 추출 가능
+
+연령대별, 시간대별 예측으로 일정한 패턴을 가지고 교통사고 발생
